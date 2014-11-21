@@ -60,7 +60,7 @@ Transform and style the two planes
 	position: absolute;
 	width: 300px;
 	height: 390px;
-	margin-top: 2em;
+	margin-top: 3em;
 	background-color: #fff;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;

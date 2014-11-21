@@ -1,9 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
 
 
-.container > header,
+
+.container {
+padding-right: 0px;
+padding-left: 0px;
+margin: 0%;
+width: 100%
+}
+
 .codrops-top {
   font-family: 'Lato', Arial, sans-serif;
+  padding-top: 0.5em;
 }
 
 .container > header {
@@ -51,9 +59,9 @@
 .btn-contact {
    font-family: 'Lato', Arial, sans-serif;
    color: #fff;
+   background-color: #000023;
    font-size: 30px;
-   border-width: 5px;
-   border-color: #fff;
+   border-color: #000023;
    border-radius: 5px;
    padding: 8px;
 
@@ -62,10 +70,10 @@
 .btn-contact:hover {
   background-color: #8ccdb0;
   color:#fff;
-  border-color: #000023;
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
+
+
 
 /*Bouton doawnload resume*/
 .btn-contact3 {
