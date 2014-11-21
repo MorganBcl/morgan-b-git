@@ -1,20 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
-@font-face {
-  font-family: 'codropsicons';
-  src:url('../fonts/codropsicons/codropsicons.eot');
-  src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/codropsicons/codropsicons.woff') format('woff'),
-    url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
-    url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
 
 
 .container > header,
@@ -48,7 +32,7 @@
   color: black;
   background: #fff;
   text-transform: uppercase;
-  width: 2000px;
+  width: 100%;
   font-size: 0.69em;
   line-height: 2.2;
 }
@@ -58,32 +42,53 @@
 
 #btn-contact2 {
   position: absolute;
-  margin-top: 9em;
   left: 50%; 
-  margin-left: -165px;
+  margin-left: -145px;
+  margin-top: -20px;
 }
 
-.btn-contact3 {
-  margin-top: 1em;
-}
 
 .btn-contact {
    font-family: 'Lato', Arial, sans-serif;
    color: #fff;
    font-size: 30px;
-   background-color: #000023;
-   border-color: white;
-   border-width: 2px;
+   border-width: 5px;
+   border-color: #fff;
    border-radius: 5px;
    padding: 8px;
+
 }
 
 .btn-contact:hover {
   background-color: #8ccdb0;
   color:#fff;
   border-color: #000023;
+  text-decoration: none;
   
 }
+
+/*Bouton doawnload resume*/
+.btn-contact3 {
+   margin-top: 2em;
+   font-family: 'Lato', Arial, sans-serif;
+   color: #fff;
+   font-size: 30px;
+   background-color: #000023;
+   border-width: 3px;
+   border-color: #000023;
+   border-radius: 5px;
+   padding: 8px;
+  }
+
+  .btn-contact3:hover {
+  background-color: #8ccdb0;
+  color:#fff;
+  border-color: #000023;
+  text-decoration: none;
+  
+}
+
+  button,input{line-height:normal;}button,select{text-transform:none;}
 
 /* effet pliure du bouton contact*/
 
@@ -116,7 +121,7 @@
   height: 25px;
 }
 
-/* Effet bouton CV */
+/* Effet bouton doawnload resume */
 
 .bubble-float-bottom {
   display: inline-block;
@@ -148,7 +153,7 @@
   transform: translateY(-5px) translateZ(0);
 }
 .bubble-float-bottom:hover:before, .bubble-float-bottom:focus:before, .bubble-float-bottom:active:before {
-  bottom: -10px;
+  bottom: -13px;
 }
 
 /* 2D TRANSITIONS Grow pour bouton réseaux sociaux */
@@ -168,11 +173,5 @@
   transform: scale(1.1);
 }
 
-
-@media screen and (max-width: 25em) {
-
-  .codrops-icon span {
-    display: none;
-  }
 
 
