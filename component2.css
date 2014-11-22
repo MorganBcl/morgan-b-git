@@ -196,6 +196,12 @@ Movie information
 	margin: 15px 5.5px 1px 1px;
 }
 
+.iconeRSGit { /* traitement particulier pour Github qui n'a pas la même taille que les autres*/
+	width: 93px;  
+	height: 95px;
+	margin: 15px -2px 1px 0px;
+}
+
 #nuage {
 	width: 350px; 
 	height: 300px;
