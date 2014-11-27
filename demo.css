@@ -51,8 +51,9 @@ width: 100%
 #btn-contact2 {
   position: absolute;
   left: 50%; 
-  margin-left: -145px;
+  margin-left: -151.5px;
   margin-top: -20px;
+  border-color: #fff
 }
 
 
