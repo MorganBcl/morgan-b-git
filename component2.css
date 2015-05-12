@@ -1,5 +1,5 @@
 body {
-	background: #000023;
+	background-image: url("./photo/pipe.jpg");
 	font-family: 'Lato', Arial, sans-serif;
 	color: #fff;
 	max-width: 100%;
@@ -114,7 +114,7 @@ Movie information
 **************************************/
 
 .info header {
-	color: #8ccdb0;
+	color: #1f282d;
 	font-size: 130px;
 	text-align: center;
 	font-family: 'Lato', Arial, sans-serif;
@@ -144,7 +144,7 @@ Movie information
 }
 
 .info header {
-	color: #8ccdb0;
+	color: #1f282d;
 	padding-top: 30px;
 	font-size: 30px;
 	text-align: center;
@@ -156,7 +156,7 @@ Movie information
 }
 
 #resume { /* titre h1 bleu à l'interieur de la box*/
-	color: #8ccdb0;
+	color: #1F283A;
 	font-size: 35px;
 	padding-top: 10px;
 	text-align: center;
@@ -168,7 +168,7 @@ Movie information
 }
 
 #about { /* titre h1 bleu à l'interieur de la box*/
-	color: #8ccdb0;
+	color: #1F283A;
 	font-size: 50px;
 	padding-top: 20px;
 	text-align: center;
@@ -180,7 +180,7 @@ Movie information
 }
 
 #socialnetwork { /* titre h1 bleu à l'interieur de la box*/
-	color: #8ccdb0;
+	color: #1F283A;
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Lato', Arial, sans-serif;
